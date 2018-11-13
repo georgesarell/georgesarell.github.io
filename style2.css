@@ -94,6 +94,7 @@ a:active {
   background: #ffffff ;
   color: #ffffff;
   overflow-y: scroll;
+  overflow-x: hidden;
   height: 100%;
   
 }.bodyblock{	  
@@ -120,6 +121,7 @@ a:active {
 		grid-template-rows: repeat 38 (38, 1fr);
 		grid-gap: 1vw;
 		height: 100%;
+			width: 103%;
 		background: #ffffff ;
 		border-top: 1vw solid #ffffff; border-left: 1vw solid #ffffff; border-bottom: 1vw solid #ffffff; 
 		overflow-x: hidden;
@@ -685,8 +687,10 @@ margin-bottom: 1vh;
       display: block;   
  background: #dc0000;
   text-align: center;
+  justify-self: center;
   color: #ffffff;
-  padding: 1vw;	
+  padding: 1vw;
+  padding-right: 4.5vw;	
   width: 100%;
 }
 .optext {
@@ -700,7 +704,8 @@ margin-bottom: 1vh;
   width: 100%;
 }
 .optext2 {
-  width: 95%;
+  width: 92%;
+  padding-right: 13vw;
 
 }
 .opimg {
