@@ -120,7 +120,7 @@ a:active {
         grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: repeat 38 (38, 1fr);
 		grid-gap: 1vw;
-		height: 100%;
+		height: auto;
 			width: 103%;
 		background: #ffffff ;
 		border-top: 1vw solid #ffffff; border-left: 1vw solid #ffffff; border-bottom: 1vw solid #ffffff; 
@@ -370,7 +370,16 @@ justify-content: center;
     display: block;
 }
 
-
+.conlogo{
+  display: block;
+  background: #dc0000;
+  text-align: center;
+  color: #ffffff;	
+  margin-left: 1vw;
+  margin-top: 1vw;
+  height: auto; 
+  overflow-x: hidden;	
+}
 
 .contimg {
   float: center;
@@ -419,9 +428,21 @@ justify-content: center;
   text-align: center;
   color: #ffffff;
   padding: 1vw;	
-  height: 92.5%;
+  height: auto;
   border-top: 1vw solid #ffffff; border-left: 1vw solid #ffffff; border-bottom: 1vw solid #ffffff; 
   overflow-x: hidden;
+}
+.curlogo{
+  display: block;
+  background: #ffffff;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 1vw;	
+  margin-left: 1vw;
+  margin-top: 1vw;
+  height: auto;
+  border-top: 3vw solid #dc0000; border-bottom: 3vw solid #dc0000; 
+  overflow-x: hidden;	
 }
 
 /* SCRAMBLEBAG */
@@ -680,6 +701,14 @@ margin-bottom: 1vh;
   grid-row: 5 ;
       display: block; 
 	  justify-self: center;
+}
+.opbum {
+  grid-column: 1 / 4 ;
+  grid-row: 6 ;
+      display: block; 
+	  justify-self: center;
+	  color: #ffffff;
+	
 }
 .oplogo {
   grid-column: 1 / 4 ;
